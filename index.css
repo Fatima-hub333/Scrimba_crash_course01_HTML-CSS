@@ -23,3 +23,19 @@
   border: 1px solid #dfe1e5;
   border-radius: 24px;
 }
+
+.btn {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dfe1e5;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+}
