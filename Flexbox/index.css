@@ -1,9 +1,15 @@
 .container {
   border: 5px solid #ffcc5c;
   display: flex; 
+  height: 100%;
+  align-items: center;
 }
 
-/* flex-grow, flex-shrink, flex-basis */
-.home, .logout {
-  flex: 1;
+.logout {
+  align-self: flex-start;
 }
+
+.home {
+  align-self: flex-end;
+}
+
