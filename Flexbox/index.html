@@ -6,13 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="basic.css">
-  <title>Flex Box</title>
+  <title>Responsive Navbar</title>
 </head>
 <body>
-  <nav class="container">
-    <div class="item1">1 Home</div>
-    <div class="item2">2 Search</div>
-    <div class="item3">3 Logout</div>
-  </nav>
+  <nav>
+  <ul class="container">
+    <li>Home</li>
+    <li>Profile</li>
+    <li class="search">
+      <input type="text" class="search-input" placeholder="Search">
+    </li>
+    <li>Logout</li>
+  </ul>
+</nav>
 </body>
 </html>
