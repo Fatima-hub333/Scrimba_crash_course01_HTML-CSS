@@ -10,7 +10,6 @@ html, body {
   margin: 10px;
   height: 100%;
   box-sizing: border-box;
-  padding: 10px;
 }
 
 .container > div:nth-child(1) {
